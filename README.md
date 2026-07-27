@@ -6,8 +6,6 @@ A full-stack project management system with **.NET 10** backend, **React** front
 
 - Full CRUD operations for Projects and Tasks
 - AI-powered task analysis (priority suggestions, time estimates, smart tagging)
-- Clean Architecture with Repository and Service patterns
-- RESTful API with Swagger documentation
 - In-memory caching for AI results
 
 ## 🛠️ Tech Stack
