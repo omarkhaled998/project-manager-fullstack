@@ -1,0 +1,54 @@
+:root {
+  --bg: #f5f8fb;
+  --panel: #ffffff;
+  --panel-soft: #f9fbff;
+  --text-strong: #122032;
+  --text-muted: #4f6175;
+  --border: #d9e2ee;
+  --brand: #0f5fa8;
+  --brand-border: #0f4f8a;
+  --danger: #b83a3a;
+  --danger-border: #9f3232;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.45;
+  font-weight: 400;
+}
+
+:root[data-theme='dark'] {
+  --bg: #0f1720;
+  --panel: #121d29;
+  --panel-soft: #182638;
+  --text-strong: #f0f5fc;
+  --text-muted: #b8c8db;
+  --border: #2a3b52;
+  --brand: #1f7bcc;
+  --brand-border: #216cad;
+  --danger: #cc4b4b;
+  --danger-border: #b44343;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--text-strong);
+  background:
+    radial-gradient(circle at 8% 2%, rgba(15, 95, 168, 0.12), transparent 22%),
+    radial-gradient(circle at 90% 8%, rgba(77, 152, 224, 0.16), transparent 20%),
+    var(--bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
